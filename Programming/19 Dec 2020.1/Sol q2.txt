@@ -1,0 +1,1 @@
+Capability list is considered to be a protected object which user can only access indirectly. The OS ensures that user directly cannot access the capability list.

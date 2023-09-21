@@ -1,0 +1,22 @@
+/bin/
+
+src/.DS_Store
+
+.DS_Store
+
+src/wk1/generics/
+
+.classpath
+
+.project
+
+.idea/
+
+CMSC350.iml
+
+*.class
+/src/wk2/Week 2 Program Examples/
+
+out/production/CMSC350/
+
+src/test/

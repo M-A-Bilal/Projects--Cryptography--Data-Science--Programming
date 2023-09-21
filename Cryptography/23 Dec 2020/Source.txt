@@ -1,0 +1,60 @@
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <cmath>
+using namespace std;
+
+int main() {
+	double SN, CI, Q, AFR, BPR;
+	cout << "Please enter smoker number (SN) = ";
+	cin >> SN;
+	cout.precision(15);
+	cout.setf(std::ios::fixed, std::ios::floatfield); 
+	cout << SN << '\n';
+
+	if (SN <= 30) {
+		CI = 0.06949 * SN;
+	}
+	else {
+		CI = (0.0297 * pow(SN, 2)) - (1.803 * SN);
+	}
+
+	cout << "\nCI = " << CI;
+
+	cout << "\nIdentify engine (TF / MTF) = ";
+	string engine;
+	cin >> engine;
+
+	if (engine == "TF" || engine == "tf") {
+		cout << "\nEnter value of AFR = ";
+		cin >> AFR;
+		Q = (0.776 * AFR) + 0.877;
+
+	}
+	else if (engine == "MTF" || engine == "mtf") {
+		cout << "\nEnter value of AFR = ";
+		cin >> AFR;
+		cout << "\nEnter value of BPR = ";
+		cin >> BPR;
+		Q = (0.776 * AFR) + (1 + BPR) + 0.877;
+	}
+
+	double EIpmvol = CI * Q;
+	double EIpmvolfsc = 49.0;
+	double EIhc;
+
+	cout << "\nEnter value of EI(hc) = ";
+	cin >> EIhc;
+
+	double EIpmvolfo = 6.17 * EIhc;
+
+	double EIpmtotal = EIpmvol + EIpmvolfo + EIpmvolfsc;
+
+	cout << "\nEIpmvol = " << EIpmvol << " mg/kg";
+	cout << "\nEIpmvolfsc = " << EIpmvolfsc << " mg/kg";
+	cout << "\nEIpmvolfo = " << EIpmvolfo << " mg/kg";
+	cout << "\nEIpmtotal = " << EIpmtotal << " mg/kg";
+
+	return 0;
+
+}

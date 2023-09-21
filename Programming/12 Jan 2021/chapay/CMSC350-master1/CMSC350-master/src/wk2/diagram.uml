@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="89.0" y="294.0">wk2.ProjectOne</node>
+    <node x="132.5" y="0.0">wk2.SyntaxError</node>
+    <node x="0.0" y="125.0">wk2.Convert</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="wk2.ProjectOne" target="wk2.SyntaxError">
+      <point x="61.25" y="-82.0" />
+      <point x="272.75" y="269.0" />
+      <point x="285.5" y="269.0" />
+      <point x="285.5" y="100.0" />
+      <point x="251.0" y="100.0" />
+      <point x="39.5" y="37.5" />
+    </edge>
+    <edge source="wk2.ProjectOne" target="wk2.Convert">
+      <point x="-61.25" y="-82.0" />
+      <point x="150.25" y="269.0" />
+      <point x="137.5" y="269.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="wk2.Convert" target="wk2.SyntaxError">
+      <point x="0.0" y="-59.5" />
+      <point x="137.5" y="100.0" />
+      <point x="172.0" y="100.0" />
+      <point x="-39.5" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.6310401316732168" x="380.05146858687476" y="176.19382367478917" />
+  <SelectedNodes>
+    <node>wk2.Convert</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

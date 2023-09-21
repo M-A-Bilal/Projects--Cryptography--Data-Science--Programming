@@ -1,0 +1,32 @@
+Method Overloading
+-	Make the program more readable.
+-	Performed within the class.
+-	Need to have different parameters.
+-	Polymorphism at compile time is an example of method overloading.
+-	In java, only modifying the return type of the function does not mean method overloading  In method overloading, the return type can be similar or different. However, the parameters used must be modified.
+
+
+Method Overriding
+-	It provides the specific implementation of the super class method that is already provided.
+-	Occurs in two classes that have IS-A (inheritance) relationship.
+-	Parameter must be same.
+-	Polymorphism at run time is an example.
+-	Return type must be same or covariant.
+
+
+Java Method Overloading example
+
+class OverloadingExample{  
+static int add(int a,int b){return a+b;}  
+static int add(int a,int b,int c){return a+b+c;}  
+}  
+
+
+Java Method Overriding example
+
+class Animal{  
+void eat(){System.out.println("eating...");}  
+}  
+class Dog extends Animal{  
+void eat(){System.out.println("eating bread...");}  
+}  

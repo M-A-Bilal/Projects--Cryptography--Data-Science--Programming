@@ -1,0 +1,8 @@
+Move		Current Token		Stack
+1		A			A
+2		B			B A
+3		+			A+B
+4		C			C A+B
+5		D			D C A+B
+6		-			C-D A+B
+7		*			(A+B)*(C-D)

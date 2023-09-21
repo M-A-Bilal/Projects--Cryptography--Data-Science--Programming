@@ -1,0 +1,208 @@
+Answer 9:
+
+a.	It makes a variable read only.
+b.	Uninitialized constant variable.
+
+
+Answer 10:
+a.	Yes 
+b.	cin >> x >> z;
+
+
+Answer 11:
+a.	No it would not compile.
+b.	It will not compile since x and y are of different datatypes.
+
+
+Answer 12:
+a.	float x, y, results;
+	results = (x-y)/(x+y);
+
+Answer 13:
+a.	A type cast is basically a conversion from one type to another.
+b.	int main(){
+    		int x = 10; // integer x
+    		char y = 'a'; // character c
+  
+    		// y converted to int. ASCII
+    		// value of 'a' is 97
+    		x = x + y;
+  
+    		// x is converted to float
+    		float z = x + 1.0;
+  
+    		cout << "x = " << x << endl
+         	<< "y = " << y << endl
+         	<< "z = " << z << endl;
+  
+    		return 0;
+	}
+
+Answer 14:
+We need to add #include <iomanip> to our code.
+
+
+Answer 15:
+a.	int x{};
+	cin >> x; 
+	In this case if a user enter something other than a nuber a fail state will occur.
+b.	When we use ‘cin’ the input is read till the first blank space occurs in the input data, whereas in case of 'cin.get’ we specify length of the input.
+
+
+Answer 16:
+cout << 121;
+
+
+Answer 17:
+
+P	Q	P AND Q
+T	T	T
+T	F	F
+F	T	F
+F	F	F
+
+P	Q	P OR Q
+T	T	T
+T	F	T
+F	T	T
+F	F	F
+
+Answer 18:
+it will give compilation error in both cases
+
+Answer 19:
+int x = 0;
+while( x++ < 10 ); //notice the empty statement (lone semicolon) following the while-loop
+cout << x;
+
+Answer 20:
+a.
+
+if (x<10){
+	if(y<10){
+		cout<<x<<y<<endl;
+	}
+}
+
+b.
+if (x<10 && y<10){
+	cout<<x<<y<<endl;
+}
+
+Answer 21:
+Nested if: In nested if statements you have to take care of the else statement. The else statement for an if is for the nearest if statement. Example:
+
+if(a)
+
+{
+
+if(b) statement 1;
+
+else statement 2;
+
+if(c) statement 3;
+
+else statement 4;
+
+if(c) statement 5;
+
+else statement 6;
+
+}
+
+else statement 7;
+
+if-else-if chained statement: In if-else-if chained a program keeps executing downwards. When a condition is met rest of the ladder is discarded.
+
+General form of if-else-if:
+
+if (expression) statement;
+
+else
+
+if (expression) statement;
+
+else
+
+if (expression) statement;
+
+..
+
+..
+
+else statement;
+
+
+Answer 22:
+if (age>=18) OKToDrive = 'Y'
+else TakeABus = 'Y'
+
+
+Answer 23:
+Switch case statement evaluates a given expression and based on the evaluated value(matching a certain condition), it executes the statements associated with it. Basically, it is used to perform different actions based on different conditions(cases). 
+
+    Switch case statements follow a selection-control mechanism and allow a value to change control of execution.
+    They are a substitute for long if statements that compare a variable to several integral values.
+    The switch statement is a multiway branch statement. It provides an easy way to dispatch execution to different parts of code based on the value of the expression.
+
+
+Answer 24:
+A scope is a region of the program and broadly speaking there are three places, where variables can be declared −
+
+    Inside a function or a block which is called local variables,
+
+    In the definition of function parameters which is called formal parameters.
+
+    Outside of all functions which is called global variables.
+
+
+Answer 25:
+int a = x;
+int x =7, z=x+a;
+
+
+Answer 26:
+a.
+Depending upon the position of a control statement in a program, looping statement in C is classified into two types:
+1. Entry controlled loop
+2. Exit controlled loop
+
+b. 
+while loop is Entry controlled loop
+   do-while loop is Exit controlled loop
+
+
+Answer 27:
+6
+5
+4
+3
+2
+1
+
+
+Answer 28:
+a.  void abc(int, int*);
+b.  abc(x, &y)
+c.  void abc(int x, int* y){
+	// function body
+	}
+
+
+Answer 29:
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main () {
+  ofstream myfile;
+  myfile.open ("example.txt");
+  myfile << "Writing this to a file.\n";
+  myfile.close();
+  return 0;
+}
+
+
+Answer 30:
+The break statement ends the loop immediately when it is encountered.
+The continue statement skips the current iteration of the loop and continues with the next iteration.

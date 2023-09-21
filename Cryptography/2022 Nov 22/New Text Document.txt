@@ -1,0 +1,27 @@
+Make an oral presentation on any topic of your choice that is related to "Network Security". 
+Also, it must include a topic that you learnt in this course (such as Cuckoo filtering, 
+Bloom filtering, Merkle Patricia Trie, Merkle Tree, Blockchain, TLS, Quantum Key Distribution, 
+etc.). You must also meet the following criteria:  
+
+1. The presentation must be around 12 minutes long followed by a Q&A session for 3 minutes 
+(in total 15 minutes).   
+
+2. Your presentation slide should not have too many words. Try to replace descriptive sentences 
+with some eye-catching images (at least three of them must be original). Remember that a picture 
+is worth a thousand words.
+
+ 
+
+Rubrics:
+
+1. Problem statement: (What are the challenges?)                                                                                                                   
+---1 point
+
+2. Related work: Must include at least 5 research work that were done in the last 5 years 
+(not before 2018).                ---5 Points 
+
+3. Future direction: (What can be done in the future.)                                                                                                            
+---1 Point
+
+4. Original Images: At least 3 original images that must be drawn by you.                                                                           
+---3 Points

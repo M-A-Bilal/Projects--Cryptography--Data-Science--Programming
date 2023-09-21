@@ -1,0 +1,1 @@
+int A = /a*(a + c);static void display(int x){/*A sample input file*/}

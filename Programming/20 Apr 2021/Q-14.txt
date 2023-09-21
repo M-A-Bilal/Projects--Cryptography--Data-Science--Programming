@@ -1,0 +1,11 @@
+Sequential Access File
+
+1.    Sequential Access to a data file ensures that the computer sequentially reads or writes the data to the file from file beginning and proceeds step by step.
+2.    sequential access means that once the head reaches the position, the blocks are read from the same track one after another (in sequence).
+3.    Sequential access has advantages when you access information in the same order all the time. Also is faster than random access.
+
+
+Random Access file
+1.    Random Access to a file means that the computer system can read or write information anywhere in the data file.
+2.    Random access, though, means each block may be read from a different location, and the head(s) will have to be moved before reading each one, slowing down the performance significantly. This is the worst-case access pattern.
+3.    Random access file has the advantage that you can search through it and find the data you need more easily (using indexing).

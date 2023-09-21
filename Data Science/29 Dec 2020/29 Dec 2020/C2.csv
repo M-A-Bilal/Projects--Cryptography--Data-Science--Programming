@@ -1,0 +1,12 @@
+name,luggage_weight,luggage_dimensions,temperature_readings,dry_cough,sour_throat,respiratory_problems
+William,30,Normal,37,N,N,N
+Ella,30,Small,38,N,Y,N
+Ackley,30,Normal,39,N,N,N
+Aryan,30,Normal,37.2,N,N,N
+Rekha,30,Normal,36.2,N,N,N
+Aalam,30,Small,36.9,N,N,N
+Lola,30,Small,37.5,Y,N,Y
+Max,30,Normal,38,Y,N,N
+Paolo,30,Normal,39,N,Y,N
+Agustin,30,Normal,36.9,Y,Y,N
+Juan,30,Small,36.2,Y,N,N

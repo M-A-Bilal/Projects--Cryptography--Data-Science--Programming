@@ -1,0 +1,44 @@
+public interface Shape {
+    public double findArea();
+    public double area();
+}
+
+public class Circle extends Shape {
+    private final double radius;
+    final double pi = Math.PI;
+   
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    @Override
+    public double findArea() {
+        return pi * Math.pow(radius, 2);
+    }
+
+    @Override
+    public double area() {
+        double area = findArea();
+        return area;
+    }
+}
+
+public class Square extends Shape {
+    private final double sideLength; 
+   
+    public Square (double sideLength) {
+        this.sideLength = sideLength;
+    }
+
+    @Override
+    public double findArea() {
+        return Math.pow(sideLength, 2);
+    }
+
+    @Override
+    public double area() {
+        double area = findArea();
+        return area;
+    }
+}
+

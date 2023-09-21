@@ -1,0 +1,54 @@
+A STRUCTURED PROGRAM:
+
+ 
+
+ASSIGNMENT STATEMENT:
+
+Write a C program that uses the following statements to calculate x raised to the y power. 
+The program should have a while iteration control statement.
+
+a)  Input unsigned integer variable x with scanf_s. Use the conversion specifier %u. 
+b)  Input unsigned integer variable y with scanf_s. Use the conversion specifier %u.
+c)  Set unsigned integer variable i to 1.
+d)  Set unsigned integer variable power to 1.
+e)  Multiply the unsigned integer variable power by x and assign the result to the variable 
+power.
+f)   Increment variable i by 1.
+g)  Test i to see if it’s less than or equal to y in the condition of a while statement. 
+h)  Output unsigned integer variable power with printf. Use the conversion specifier %u.
+ 
+
+DELIVERABLES:
+
+Submit ONLY one file that is a zip file which includes:
+
+A Microsoft Visual Studio (VS 2019) project which includes the main directory of the project. 
+The main directory will contain all the files and subdirectories created for the solution by 
+MS VS.
+A Microsoft Word Readme documentation file.
+The FILES' NAMING FORMATS:  
+
+Files' names should be in the following naming convention form: Last name-First initial-PA# 
+where PA is the programming assignment number.
+
+The Zip-file name (i.e.   Smith-J-PA03.zip)
+The VS Project name (i.e.   Smith-J-PA03) ... The entire directory of the project should be 
+submitted; NOT only the .lsn file.
+The Readme file name (i.e.  Smith-J-PA03.doc)       (Readme is 25% of the grade if the project
+is working otherwise it is zero)
+The SOURCE CODE (.c) file should include:
+
+•  Comments to describe the code.
+
+
+The README Documentation file should include a separate section for each of the following:
+
+•   A front page that includes university name, department name, the course title, assignment 
+title, student name, and date.
+•   A report which clearly describes the design and description of your software components.
+•   A description of any input data OR file(s) to test the application. (If a file is used 
+include: a file with valid data and a file with invalid data)
+•   Detailed instruction on how the program can be compiled and executed.
+•   A dataflow diagram for every function defined in the application using any 
+diagramming/graphics software such as Microsoft Visio.
+•   Screenshots of two execution sessions processing valid input data types.

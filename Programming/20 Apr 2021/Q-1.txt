@@ -1,0 +1,11 @@
+public void addFirst(int data) {  
+        LinkedNode newNode = new LinkedNode(data);   
+        if(list == null) { 
+            newNode.next = null;  
+        }  
+        else {  
+            LinkedNode temp = head;  
+            head = newNode;   
+            head.next = temp;  
+        }  
+    }  

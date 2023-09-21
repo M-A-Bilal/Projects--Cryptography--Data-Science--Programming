@@ -1,0 +1,80 @@
+Eggs
+2.00
+Eatable
+100
+Soap bars
+1.50
+Toiletries
+293
+Plain aspirin
+0.20
+Medicine
+458
+Squirty soap
+1.20
+Toiletries
+430
+Washing tablets
+0.30
+Detergent
+690
+Dishwasher tablets
+0.20
+Detergent
+490
+Mouthwash
+3.40
+Dental
+369
+Tissues box
+0.70
+Cleaning
+876
+Tissues packet
+0.40
+Cleaning
+345
+Olive oil
+2.50
+Oil
+389
+Eggs
+2.00
+Eatable
+100
+Soap bars
+1.50
+Toiletries
+293
+Plain aspirin
+0.20
+Medicine
+458
+Squirty soap
+1.20
+Toiletries
+430
+Washing tablets
+0.30
+Detergent
+690
+Dishwasher tablets
+0.20
+Detergent
+490
+Mouthwash
+3.40
+Dental
+369
+Tissues box
+0.70
+Cleaning
+876
+Tissues packet
+0.40
+Cleaning
+345
+Olive oil
+2.50
+Oil
+389

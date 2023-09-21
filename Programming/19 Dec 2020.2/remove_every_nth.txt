@@ -1,0 +1,49 @@
+Node *remove_every_nth(struct Node *head, int n) 
+{ 
+    // If linked list is empty 
+    if (head == NULL) 
+        return NULL; 
+  
+    if (n == 1) 
+    { 
+       freeList(head); 
+       return NULL; 
+    } 
+  
+    // Initialize ptr and prev before starting 
+    // traversal. 
+    struct Node *ptr = head, *prev = NULL; 
+  
+    // Traverse list and delete every k-th node 
+    int count = 0; 
+    int i=0;
+    while (ptr != NULL) 
+    { 
+        // increment Node count 
+        count++; 
+  
+        // check if count is equal to n 
+        // if yes, then delete current Node 
+        if (n == count) 
+        { 
+            // put the next of current Node in 
+            // the next of previous Node 
+            delete(prev->next); 
+            prev->next = ptr->next; 
+  
+            // set count = 0 to reach further 
+            // n-th Node 
+            count = 0; 
+	    i++;
+        } 
+  
+        // update prev if count is not 0 
+        if (count != 0) 
+            prev = ptr; 
+  
+        ptr = prev->next; 
+	
+    } 
+  
+    return head; 
+} 

@@ -1,0 +1,6 @@
+﻿  Source.c
+C:\Misc\Freelance\6 Jan 2021\06Jan2021\Source.c(21): warning C4716: 'strSearch': must return a value
+C:\Misc\Freelance\6 Jan 2021\06Jan2021\Source.c(13): warning C4716: 'charAt': must return a value
+C:\Misc\Freelance\6 Jan 2021\06Jan2021\Source.c(17): warning C4716: 'concat': must return a value
+C:\Misc\Freelance\6 Jan 2021\06Jan2021\Source.c(25): warning C4716: 'findScore': must return a value
+  06Jan2021.vcxproj -> C:\Misc\Freelance\6 Jan 2021\06Jan2021\Debug\06Jan2021.exe

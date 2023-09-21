@@ -1,0 +1,33 @@
+Write a survey paper on different aspects of TLS in IoT environment (or any other environment 
+of your preference like VANET, M2M, 5G, etc.).
+
+ 
+
+Requirements:
+
+1. You must review at least 15 recent papers.
+
+2. All papers must be published in 2018 or later (i.e., over the last 5 years).
+
+3. Your survey paper must be at least 10 pages long (including abstract, introduction and 
+conclusion sections).
+
+4. Your survey paper must follow the IEEE template (see below). 
+
+Microsoft Word: IEEE-Transactions-Word-templates-and-instructions.zip 
+
+Latex: IEEE-Transactions-LaTeX2e-templates-and-instructions.zip 
+
+Overleaf: IEEE Journal Paper Template - Overleaf, Online LaTeX Editor 
+
+5. Similarity score must be less than 11%. 
+
+11%                        -0.5
+
+12%                        -1.0
+
+13%                        -1.5
+
+14%                        -2.0
+
+15%~19%			   -3.0

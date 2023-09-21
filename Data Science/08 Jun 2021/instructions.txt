@@ -1,0 +1,2 @@
+the Jupyter File is a start for image classifcations of 10 obejcts. I got most of the way through but my model keeps getting stuck at 55% accuarcy when the model should be 90% accuarcy.
+the Jupyter file is just my work, please return your own source code.

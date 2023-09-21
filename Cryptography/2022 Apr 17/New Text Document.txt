@@ -1,0 +1,14 @@
+EEE 5718 – Advanced Security of Internet of Things and Cyber-Physical Systems
+
+Write a technical report on THREE NEW (not given in any of the previous assignments, 
+i.e., security attack, authentication, etc.) security aspects (like Blockchain based solutions, 
+Privacy, Intrusion detection, etc.) of IoT. Your report must meet the following requirements:
+
+1. The report must review at least 60 papers published in the last 5 years (not before 2017). 
+
+2. It must be at least 30 pages long.
+
+3. You may work as a team not having more than 3 students.
+
+4. It must have the similarity score less than 10% (excluding the references).
+

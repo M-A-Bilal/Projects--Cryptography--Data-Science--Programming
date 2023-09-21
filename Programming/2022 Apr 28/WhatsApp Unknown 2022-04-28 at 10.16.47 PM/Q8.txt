@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class WordsCounter {
+ 
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        String str= sc.nextLine();
+ 
+        int count = 1; 
+        for (int i = 0; i < str.length() - 1; i++){
+            if ((str.charAt(i) == ' ') && (str.charAt(i + 1) != ' ')){
+                count++;
+            }else if ((str.charAt(i) == ' ') && (str.charAt(i + 1) == ' ')){
+                try {
+                    throw new Exception("More than one space encountered between words");
+                } catch (Exception ex) {
+                    System.out.println(ex.getMessage());                    
+                }
+            }
+        }
+        System.out.println("Number of words in a string : " + count);
+        if(count<100) System.out.println("Summary description is very short.");
+        
+    }
+}

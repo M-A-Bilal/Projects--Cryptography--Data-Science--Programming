@@ -1,0 +1,59 @@
+CHOICES
+1.	try
+2.	reg.checkAge(age);
+3.	throws NotEligibleException
+4.	catch(NotEligibleException e){
+5.	catch(String e){
+6.	super(msg);
+7.	try(throws NotEligibleException)
+8.	throw new NotEligibleException
+9.	super();
+10.	finally{
+
+class NotEligibleException extends Exception{
+	//no-arg constructor
+	public NotEligibleException(){
+		[Code 1]
+	}
+
+	//String-arg constructor
+	public NotEligibleException(String msg){
+		[Code 2]
+	}
+}
+
+class Register{
+	public static void checkAge(int age)[code 3]{
+		if(age < 18)
+			[code 4]("Sorry, you are under 18 years of age and not yet eligible to vote.");
+	}
+}
+
+public class VoterList {
+	public static void main(Strings[] args){
+		int age = 0;
+		Scanner scan = new Scanner(System.in);
+		Register reg = new Register();
+	
+		System.out.print("Enter age: ");
+		age = scan.nextInt():
+		
+		[Code 5] {
+			[Code 6]
+			System.out.println("Registering in voting list.");
+			System.out.println("Registration completed.");
+		}[Code 7]
+			System.out.println(e.getMessage());
+		}
+	}
+}
+
+
+CORRECT 
+code 1 - super();
+code 2 - super(msg);
+code 3 - throws NotEligibleException
+code 4 - throw new NotEligibleException
+code 5 - try
+code 6 - reg.checkage(age);
+code 7 - catch(NotEligibleException e)

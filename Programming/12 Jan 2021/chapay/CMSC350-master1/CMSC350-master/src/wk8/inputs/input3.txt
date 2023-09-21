@@ -1,0 +1,4 @@
+reachable1 reachable2 reachable3 reachable4 reachable5 reachable6
+reachable2 reachable1 reachable3
+unreachable1 reachable3
+unreachable2 reachable4

@@ -1,0 +1,26 @@
+Assignment:
+
+Summary - The goal of your second assignment is the creation of a java GUI desktop application, that simulates the functionality of an online webshop.
+The application should read the data of at least 60 products from a text file (name, price, category, quantity)
+
+With the NetBeans GUI Editor, create a graphical interface for the following functions:
+ - Show a list of all the products
+ - The ability to search for products (not just the name of the product but all the fields)
+ - Shopping Cart: Show Cart, Add and remove products to the cart, show the sum of price of products in the cart, complete the purchase.
+ The user should be able to save products to file for later use.
+ - Wishlist (with more or less the same functionality as the shopping cart): The user should be able to save products to file for later use.
+
+Try to create a straightforward and efficient GUI, with multiple elements (JTextField, JList, JComboBox,JTextArea, perhaps JTable, etc.)
+The project should also utilize multiple windows.
+In the search function, the list of the products should automatically refresh, whenever the user types a new character.
+The contents of the shopping cart and wishlist should be saved in separate files.
+When the user completes a purchase, after inputting his card details and name, the application should remove the products from the main text file, and save them into new text file which contains the purchased items.
+
+The use of database backends are forbidden for this project!
+The project should be developed entirely in NetBeans.
+The documentation should explain the role of the classes in the project, their functions and include screenshots of the  most important usage types.
+
+The grading of the assignment depends on:
+-the functionality of the application
+-efficient usage of the rules of Object-Oriented programming
+-efficient usage of Java Programming conventions (naming of classes and variables, code formatting)

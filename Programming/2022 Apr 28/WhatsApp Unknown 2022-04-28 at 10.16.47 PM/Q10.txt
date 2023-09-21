@@ -1,0 +1,7 @@
+ArrayList is the implementation of List Interface where the elements can be dynamically added or removed from the list. 
+Also, the size of the list is increased dynamically if the elements are added more than the initial size. 
+Though it may be slower than standard arrays, it can be helpful in programs where lots of manipulation in the array is needed.
+
+ArrayList in Java is used to store a dynamically sized collection of elements.
+ArrayList is initialized by a size. However, the size can increase if the collection grows, and shrunk if objects are removed from the collection.
+Java ArrayList allows us to randomly access the list.

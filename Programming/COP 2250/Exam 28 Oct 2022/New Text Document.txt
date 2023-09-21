@@ -1,0 +1,72 @@
+Answer 1a:
+
+        int input = 5;
+        if (input > 0)
+            while(input != 0)
+                if (input % 2 == 1)
+                    input--;
+                else{
+                    input = input / 2;
+                    System.out.println("halves the input");
+                }
+        System.out.println("input is " + input);
+
+Answer 1b:
+	  int input = 5;
+        if (input > 0){
+            while(input != 0){
+                if (input % 2 == 1){
+                    input--;
+                }
+                else{
+                    input = input / 2;
+                    System.out.println("halves the input");
+                }
+            }
+        }
+        System.out.println("input is " + input);
+
+Answer 1c:
+
+halves the input
+halves the input
+input is 0
+
+
+Answer (Question 2):
+
+****
+****
+****
+****
+
+Answer (Question 3):
+	  Scanner s = new Scanner(System.in);
+        int i = 0;
+        while(i<5 || i>20){
+            System.out.println("Enter a number between 5 and 20 : ");
+            i = s.nextInt();
+        }
+        System.out.println("Square root of number is : " + Math.sqrt(i));
+
+
+Answer (Question 4):
+20 25
+
+
+Answer (Question 5):
+BEBEBEBEBEB
+
+
+Answer (Question 6):
+ZYZZXZZZ
+
+
+Answer (Question 7):
+286
+
+
+Answer (Question 8):
+654,987,10
+
+

@@ -1,0 +1,91 @@
+import java.util.*;
+
+class PlayingCards implements Comparable < PlayingCards > {
+    private int CardNumber;
+    private CardSuits CardSuit;
+
+    public PlayingCards ( int CardNumber, CardSuits CardSuit ) {
+        this.CardNumber = CardNumber;
+        this.CardSuit = CardSuit;
+    }
+
+    public int get_Rank () {
+        return CardNumber;
+    }
+
+    public void set_Rank ( int rank ) {
+        this.CardNumber = rank;
+    }
+
+    public CardSuits get_Suit () {
+        return CardSuit;
+    }
+
+    public void set_Suit ( CardSuits suit ) {
+        this.CardSuit = suit;
+    }
+
+    @Override
+    public int compareTo ( PlayingCards anotherCard ) {
+        return this.CardNumber - anotherCard.CardNumber;
+    }
+
+    @Override
+    public String toString () {     
+        return String.format ("Suit: %8s Rank: %8s", CardSuit, CardNumber );
+    }
+}
+
+enum CardSuits {
+    HEART ( 0 ),
+    DIAMOND ( 1 ),
+    CLUB ( 2 ),
+    SPADE ( 3 );
+
+    private int value;
+
+    private CardSuits ( int value ) {
+        this.value = value;
+    }
+
+    public int GetValue () {
+        return value;
+    }
+}
+
+public class SortPlayingCards {
+
+    private static final int TOTAL_CARDS = 52;
+    private static final int CARDS_PER_SUIT = 13;
+    private static final int TOTAL_SUITS = 4;
+    private List < PlayingCards > deck;
+
+    public SortPlayingCards () {
+        deck = new ArrayList < PlayingCards > ();       
+    }
+
+    private void MakeCardsDeck () {
+        for ( CardSuits suit : CardSuits.values () ) {
+            for ( int i = 0; i < CARDS_PER_SUIT; ++i ) {
+                deck.add (new PlayingCards ( i, suit ) );
+            }
+        }
+    }
+    private void DisplayCardsDeck () {
+        for ( PlayingCards card : deck ) {
+            System.out.println ( card );
+        }
+    }
+    private void DoTheJob () {
+        MakeCardsDeck ();
+        Collections.shuffle ( deck );
+        System.out.println ( "Before SORTING" );
+        DisplayCardsDeck ();
+        Collections.sort ( deck );
+        System.out.println ( "After SORTING" );
+        DisplayCardsDeck ();
+    }
+    public static void main ( String[] args ) {
+        new SortPlayingCards().DoTheJob ();
+    }
+}

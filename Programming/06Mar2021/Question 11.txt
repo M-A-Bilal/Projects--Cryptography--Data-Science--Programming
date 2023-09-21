@@ -1,0 +1,17 @@
+1.
+
+class Dealer extends Customer{
+
+getName(){
+return this.Name.lastName;
+}
+
+setVehicle(make, model, VIN){
+this.make = make;
+this.model = model;
+this. VIN = VIN;
+
+}
+}
+
+2. d.getName();

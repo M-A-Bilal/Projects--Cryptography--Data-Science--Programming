@@ -1,0 +1,37 @@
+Write a survey paper on different Quantum Key Distribution (QKD) protocols.
+
+Requirements:
+
+1. You must cover at least 6 protocols.
+
+2. At least 2 of the protocols were proposed in the last 5 years (in 2018 or later).
+
+3. Your survey paper must be at least 6 pages long (including abstract, introduction and conclusion sections).
+
+4. Your survey paper must follow the IEEE template (see below). 
+
+Microsoft Word: IEEE-Transactions-Word-templates-and-instructions.zip 
+
+Latex: IEEE-Transactions-LaTeX2e-templates-and-instructions.zip 
+
+Overleaf: IEEE Journal Paper Template - Overleaf, Online LaTeX Editor 
+
+5. Your paper must have at least 3 figures drawn completely by you (not copied from anywhere).
+
+6. Similarity score must be less than 11%. 
+
+11%                        -0.5
+
+12%                        -1.0
+
+13%                        -1.5
+
+14%                        -2.0
+
+15%~19%              	-3.0                
+
+20% and above     -4.0
+
+All references are from 2018 and above
+Make sure u follow number 5 which is 3 figures drawn by you not copied from anywhere
+Due on the 18th Nov 2022

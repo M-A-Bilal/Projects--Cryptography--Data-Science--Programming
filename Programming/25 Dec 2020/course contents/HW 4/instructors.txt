@@ -1,0 +1,68 @@
+Introduction to Programming with Matlab, COMP110, Emre Kutukoglu
+Programming with Python, COMP125, Ayca Tuzmen
+Introduction to Programming, COMP131, Ayca Tuzmen
+Advanced Programming, COMP132, Attila Gursoy
+Introduction to Electrical and Electronics Engineering, ELEC100, Ertugrul Basar
+Introduction to Mechanical Engineering, MECH100, Kerem Pekkan
+Introduction to Chemical and Biological Engineering, CHBI100, Cem Albayrak
+Data Structures and Algorithms, COMP202, Baris Akgun
+Signals and Systems, ELEC201, Ozgur Baris Akan
+Circuits, ELEC202, Sedat Nizamoglu
+Digital Design, ELEC204, Engin Erzin
+Electromagnetism, ELEC206, Umran Inan
+Programming for Engineers, ELEC230, Zafer Dogan
+Engineering Materials, MECH202, Erdem Alaca
+Thermodynaics, MECH204, Arif Karabeyoglu
+Dynamics, MECH206, Ismail Lazoglu
+Thermodynamics, CHBI204, Alper Uzun
+Engineering Economics, INDR202, Figen Gunes Dogan
+Applied Statistics, INDR252, Mehmet Gonen
+Introduction to Optimization Methods, INDR262, Metin Turkay
+Operating Systems, COMP304, Didem Unat
+Algorithms and Complexity, COMP305, Deniz Yuret
+Database Management Systems, COMP306, Banu Yobas
+Systems Control and Communication, ELEC301, Alper Erdogan
+Digital Signal Processing, ELEC303, Murat Tekalp
+Microelectronic Circuits and Devices, ELEC310, Onur Ergen
+Digital Integrated Circuits and VLSI Design, ELEC311, Onur Ergen
+Fluid Mechanics, MECH301, Erkan Senses
+Heat Transfer, MECH302, Ipek Basdogan
+Dynamic Modeling and Control, MECH304, Cagatay Basdogan
+Manufacturing Processes, MECH306, Melis Serefoglu
+Numerical Methods for Mechanical Engineering, MECH307, Murat Sozer
+Fluid Mechanics, CHBI301, Erkan Senses
+Reaction Engineering, CHBI308, Ozlem Keskin
+Modeling and Simulation, INDR344, Pelin Gulsah Canbolat
+Production Planning and Control, INDR372, Fikri Karaesmen
+Distributed Computing Systems, COMP415, Oznur Ozkasap
+Computer Networks, COMP416, Oznur Ozkasap
+Parallel Programming, COMP429, Didem Unat
+Intelligent User Interfaces, COMP437, Tevfik Metin Sezgin
+Digital Image and Video Processing, ELEC406, Murat Tekalp
+Wireless Communications, ELEC414, Ertugrul Basar
+Introduction to MEMS and MOEMS, ELEC422, Hakan Urey
+Bioelectronics, ELEC436, Sedat Nizamoglu
+Advanced Sensors, ELEC440, Mehmet Cengiz Onbasli
+Introduction to Elasticity and Plasticity, MECH406, Demircan Canadinc
+Computational Fluid Dynamics, MECH422, Metin Muradoglu
+Mechanics of Microsensors, MECH425, Erdem Alaca
+Introduction to Aerospace Engineering, MECH428, Arif Karabeyoglu
+Artificial Intelligence Applications in Metallurgy, MECH430, Demircan Canadinc
+Emerging Biomedical Technologies, MECH432, Savas Tasoglu
+Design of MEMS and Flexible Sensors for Wearable Devies, MECH433, Levent Beker
+Computer Based Simulation and Modeling, MECH434, Cagatay Basdogan
+3D Printed Microfluidics, MECH435, Savas Tasoglu
+Biological Fluid Mechanics, MECH440, Kerem Pekkan
+Metal Forming, MECH447, Demircan Canadinc
+Mechanics and Materials in Medicine, MECH468, Demircan Canadinc
+Processing Modeling Dynamics and Control, CHBI408, Yaman Arkun
+Sustainable Energy, CHBI411, Riza Kizilel
+Catalysis at Surfaces, CHBI412, Alper Uzun
+Computational Structural Biology, CHBI422, Ozlem Keskin
+Molecular Chronobiology, CHBI424, Halil Kavakli
+Intermolecular and Surface Forces, CHBI438, Mehmet Sayar
+Nanostructured Materials for Energy, CHBI440, Can Erkey
+Operations Research Applications, INDR460, Sibel Salman
+Service Operations Analysis, INDR471, Lerzan Ormeci
+Healthcare Systems Operations, INDR476, Lerzan Ormeci
+Logistics Management, INDR484, Baris Yildiz
